@@ -1,0 +1,6 @@
+{
+  "name": "Saajha Nirman | Circular Construction Material Exchange",
+  "description": "Connecting surplus construction materials with nearby sites to divert waste, recommend feasible transfers, and track measurable environmental recovery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

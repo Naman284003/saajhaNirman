@@ -1,0 +1,1008 @@
+For your Saajha Nirman project, I recommend keeping the same dashboard structure and functionality as your reference image, but transforming it into a premium, modern silver + emerald green construction-material recovery platform. The UI should look like a polished startup product, not a generic e-commerce website.
+
+Below is a detailed prompt you can paste into Stitch, Gemini, Cursor, Lovable, or another AI frontend coding tool.
+
+## Design direction
+
+[User Activation & Growth Analytics Platform Dashboard by Saddam Hossan on Dribbble](https://images.openai.com/static-rsc-4/0aG-3jiG01UP1I981vEO__wWj3T4Js3C-_OKATB_3j7slpAx2P76orI4gpPQTEmo12sjisTAcsRQfEui9WC81NJFF9chj9fnQ0x8fYuhu3lTniEe2TqO74fhkMa_HQpc5-0O2GQPD5bSKUVvNtO4I0LLdB3XgJ2UrJDcKzwWErY?purpose=inline)
+
+1\. Premium silver theme
+
+Use a pearl-white and brushed-silver foundation, charcoal typography, emerald-green actions, and subtle metallic gradients. Avoid a dark, heavy construction-site aesthetic.
+
+Pearl
+
+Silver
+
+Charcoal
+
+Emerald
+
+Mint
+
+[Reclaimed Building Materials: Uses, Benefits & Tips.](https://images.openai.com/static-rsc-4/4ElmBIlYlb9ZczzIXhL7uJB9mEvOKu8t4O_3fGLondodY34-GWLFPB4U6NwKP_tuoV6AuOjRnSkltHE6PXqXlh3aghe9x4QSfWDIazqmZ8ljljWAICBrspKB08fDbB_JAmO5rzJ-kiCo9rvPL5IWQ4NtzYxpNjqx_M9fgHBuOiA?purpose=inline)
+
+2\. Construction-specific interface
+
+Use realistic photos of reclaimed bricks, tiles, pipes, timber and fittings, material condition indicators, location maps, and clear quantity labels.
+
+[Reneonix](https://images.openai.com/static-rsc-4/KOvSi9Z5AdcH52ZSGmHma1hDqTs3wGkdbiYbQTF7Jc8OHhRkezYC9lgSNkQ0qM51Z9-irRuAkrGf1DRB2X7Cxx3rq1OPbHs7ky8MjAA9okUS1KpR1fzE1PhVmd3qz6RhUy-S9P4Y7ISTouHzkOGKOL5aWeH-b4GuLLOjtsAg-k0?purpose=inline)
+
+3\. Recovery-focused workflow
+
+Make material matching, transfer coordination, surplus tracking, and waste-diversion analytics the central features—not buying and selling products.
+
+## Copy-paste master prompt
+
+# Saajha Nirman — Premium Silver & Emerald Green Frontend
+
+## 1. Project Overview
+
+Build a polished, responsive, production-quality frontend for **Saajha Nirman**, a sustainable construction-material recovery and exchange platform.
+
+**Tagline:** “Waste Less. Build More. Together.”
+
+**Problem statement:** Small construction projects often leave usable construction materials such as bricks, tiles, pipes, timber, cement boards, doors, fittings, and other supplies unused. At the same time, nearby projects purchase the same materials, creating unnecessary expenses and construction waste.
+
+**Solution:** Saajha Nirman connects construction sites with surplus materials to nearby sites requesting those materials. It recommends feasible transfers based on material type, quantity, condition, geographic distance, and pickup deadline.
+
+**Core differentiator:** This is a material recovery and waste-diversion workflow, not a generic buy-and-sell marketplace. The platform should show how much material was reused, how much surplus remains, how many transfers were completed, and how much waste was potentially diverted.
+
+The provided reference image is the layout inspiration. Recreate its overall information architecture—sidebar navigation, dashboard cards, material listings, listing creation forms, material detail pages, requests, matching recommendations, transfers, and analytics—but redesign the visual language to feel premium, modern, minimal, and distinctive.
+
+## 2. Technology Stack
+
+Use the following frontend technologies:
+
+- React with JavaScript only.
+- Vite for the development environment.
+- Tailwind CSS for styling.
+- React Router DOM for page navigation.
+- Lucide React for consistent interface icons.
+- Recharts for charts and analytics.
+- Framer Motion for subtle, purposeful animations.
+- Leaflet with OpenStreetMap, or an attractive map placeholder with location markers when map integration is unavailable.
+- React Hook Form for form management where useful.
+- Local mock data and localStorage for a functional frontend demonstration.
+
+Strict requirements:
+
+- Use JavaScript and JSX, NOT TypeScript or TSX.
+- Do not use a backend for this initial frontend implementation.
+- Do not require API keys to run the application.
+- Do not build a static mockup. All main navigation, filters, buttons, forms, tabs, modals, and demo workflows must function.
+- Use reusable components, maintainable architecture, realistic mock data, and clean code.
+
+## 3. Brand Identity and Design System
+
+Create a premium sustainability-tech brand called “Saajha Nirman.”
+
+The brand should communicate:
+
+- Resource sharing.
+- Trust between construction sites.
+- Circular construction.
+- Environmental responsibility.
+- Professional project coordination.
+- Measurable impact.
+
+### Color palette
+
+Use a sophisticated silver and emerald palette.
+
+- Primary background: #F4F5F6
+- Main content surfaces: #FFFFFF
+- Silver surface: #E4E7EA
+- Metallic border: #D4D9DE
+- Primary emerald: #13865B
+- Dark emerald: #086747
+- Pale mint: #E7F4EC
+- Primary text: #242B30
+- Secondary text: #737D85
+- Muted background: #F0F2F3
+- Success: #218653
+- Warning: #D99A35
+- Error: #D9534F
+- Information: #4686C5
+
+Use silver for surfaces, dividers, secondary buttons, subtle gradients, and visual depth. Use emerald primarily for important actions, active navigation, recovery status, successful matches, and positive impact indicators.
+
+Use metallic gradients sparingly. Do not use excessive gloss, bright neon colors, excessive glassmorphism, or too many competing accent colors.
+
+### Typography
+
+Use Inter or a similar modern sans-serif font.
+
+- Strong page headings.
+- Compact and readable labels.
+- Large, clearly legible KPI numbers.
+- Consistent spacing and line heights.
+- Tabular numerals for quantities, dates, and statistics.
+
+### UI styling
+
+- Use an 8px spacing system.
+- Use rounded cards with 12–16px corner radii.
+- Use thin silver borders and very subtle shadows.
+- Keep the interface spacious, structured, and easy to scan.
+- Use clear hierarchy between headings, labels, numbers, and actions.
+- Add hover states, keyboard focus indicators, loading skeletons, empty states, confirmation dialogs, and toast notifications.
+- Use consistent icon sizing and button heights.
+- Support desktop, tablet, and mobile layouts.
+
+Avoid generic dashboard templates, excessive gradients, giant empty sections, oversized icons, random illustrations, and unnecessary decorative elements.
+
+## 4. Application Layout
+
+Create two distinct interface experiences:
+
+1. A public landing page for visitors.
+2. An authenticated-style application dashboard for construction site managers.
+
+For the dashboard, use a desktop layout with a fixed or collapsible left sidebar, a slim top navigation bar, and a scrollable main content area.
+
+### Left sidebar
+
+Display the logo using a simple geometric construction-block or interlocking-material icon paired with the text “Saajha Nirman.”
+
+Navigation items:
+
+- Overview
+- Find Materials
+- My Listings
+- Material Requests
+- Smart Matches
+- Transfers
+- Impact Analytics
+- Messages
+- Profile & Settings
+
+At the bottom, include:
+
+- Help & Support
+- Current site selector
+- User profile and role
+- Logout
+
+The active navigation item should have a pale mint background, emerald icon, and strong text. Use small, consistent Lucide icons.
+
+On mobile, transform the sidebar into a compact drawer or bottom navigation.
+
+### Top navigation
+
+Include:
+
+- Breadcrumbs and page title.
+- Search input for materials, categories, and locations.
+- Notification icon with unread indicator.
+- User avatar and site role.
+- Primary action button such as “+ List Surplus.”
+
+Make the top bar sticky where appropriate, with a white background and subtle silver bottom border.
+
+## 5. Public Landing Page
+
+Create an elegant landing page with these sections.
+
+### Hero section
+
+Headline:\
+“Good Materials Deserve a Second Build.”
+
+Supporting text:\
+“Connect surplus construction materials with nearby projects that need them. Reduce waste, save resources, and build a more circular construction ecosystem.”
+
+Primary CTA: “Explore Materials”
+
+Secondary CTA: “List Surplus Materials”
+
+Use a premium hero composition featuring a realistic image of reclaimed bricks, timber, tiles, and steel or PVC pipes, arranged neatly against a bright architectural background.
+
+Add three small proof-point cards:
+
+- Materials Recovered
+- Successful Site Transfers
+- Construction Waste Diverted
+
+Use demo values clearly identified as illustrative sample data.
+
+### How It Works
+
+Show four steps:
+
+1. List surplus materials.
+2. Discover nearby requirements.
+3. Match sites using practical constraints.
+4. Coordinate pickup and confirm recovery.
+
+### Featured available materials
+
+Show attractive material cards with photos, quantity available, condition, location, estimated distance, and availability status.
+
+### Impact section
+
+Show material recovery statistics, completed transfers, remaining surplus, and an illustrative waste-diversion chart.
+
+### Additional sections
+
+- Material categories.
+- Benefits for contractors and site managers.
+- How the matching system works.
+- Call-to-action section.
+- Footer with About, Contact, Help, Privacy, and Terms.
+
+## 6. Dashboard Overview
+
+Make the dashboard the most polished and important page.
+
+Page title: “Overview”
+
+Subtitle: “Your sites, surplus materials, and recovery opportunities at a glance.”
+
+Add a welcome message:\
+“Good morning, Site Manager.”
+
+Primary actions:
+
+- List Surplus
+- Create Material Request
+- Find Matches
+
+### KPI cards
+
+Display six compact cards with a clear hierarchy:
+
+1. Available Surplus
+   - Total material quantity currently listed.
+   - Example: 1,250 units across all material categories.
+2. Active Listings
+   - Number of currently available material listings.
+   - Example: 18 listings.
+3. Open Requests
+   - Requests still waiting for suitable materials.
+   - Example: 7 requests.
+4. Recommended Matches
+   - Feasible or potentially feasible site-to-site matches.
+   - Example: 5 recommendations.
+5. Completed Transfers
+   - Number of successfully completed transfers.
+   - Example: 12 transfers.
+6. Waste Diverted
+   - Estimated material mass recovered through confirmed transfers.
+   - Example: 2.4 tonnes.
+
+These are illustrative seed values. Ensure the values displayed in cards agree with the mock dataset and update when demo actions change the data.
+
+### Main dashboard sections
+
+A. Recent Activity:
+
+- New material listed.
+- Nearby request matched.
+- Transfer accepted.
+- Pickup scheduled.
+- Transfer completed.
+
+B. Recommended Matches:\
+Display the top three recommended transfers with material type, quantity requested, source site, destination site, distance, condition, pickup deadline, match score, and action buttons.
+
+C. Material Recovery Chart:\
+Use Recharts to show recovered material quantities over the last six months.
+
+D. Material Category Breakdown:\
+Use a donut chart showing bricks, tiles, pipes, timber, and other materials.
+
+E. Recovery Pipeline:\
+Show counts for Listed, Matched, Accepted, Scheduled, and Completed.
+
+F. Nearby Opportunities:\
+Show nearby material availability with a map or a polished map-style location visualization.
+
+G. Environmental Impact:\
+Display recovered weight, completed transfers, and waste-diversion progress.
+
+All charts must use realistic sample data and update when relevant demo data changes.
+
+## 7. Find Materials Page
+
+Page title: “Find Materials”
+
+Subtitle: “Discover reusable materials available at nearby construction sites.”
+
+Create a modern search and filter panel.
+
+Search fields:
+
+- Material name or keyword.
+- Material category.
+- Location or site.
+- Maximum distance.
+- Quantity required.
+- Material condition.
+- Pickup deadline.
+
+Categories:
+
+- Bricks & Blocks
+- Tiles & Flooring
+- Pipes & Plumbing
+- Timber & Wood
+- Doors & Windows
+- Steel & Metal
+- Electrical Fittings
+- Cement Boards
+- Other Construction Materials
+
+Condition options:
+
+- Excellent
+- Good
+- Fair
+- Requires Inspection
+
+Provide grid and list view toggles, sort options, filter chips, a clear-all button, and result counts.
+
+Material cards should contain:
+
+- Material photograph.
+- Material name.
+- Available quantity and unit.
+- Condition badge.
+- Location and distance.
+- Listing date.
+- Pickup deadline.
+- Source site name.
+- Availability status.
+- “View Details” button.
+- “Request Material” button.
+
+Add pagination or a load-more mechanism.
+
+Filters must work against the local dataset. Do not simply display filter controls without changing results.
+
+## 8. Material Details Page
+
+Build a detailed view for an individual listing.
+
+Include:
+
+- Large material image gallery.
+- Material name and category.
+- Available quantity.
+- Unit of measurement.
+- Condition and inspection notes.
+- Description.
+- Approximate location and distance.
+- Available pickup window.
+- Source construction site.
+- Listing date.
+- Contact or site manager information using mock profile data.
+- Similar nearby materials.
+
+Include a quantity selector with validation.
+
+Example:
+
+- Available quantity: 200 bricks.
+- Requested quantity: 150 bricks.
+- Remaining surplus after transfer: 50 bricks.
+
+Primary action: “Request This Material”
+
+Secondary actions: “Contact Site Manager” and “Save Listing.”
+
+Never allow a request quantity greater than the available quantity.
+
+## 9. List Surplus Materials Page
+
+Create a professional, well-spaced form divided into logical sections.
+
+### Section A: Material Information
+
+Fields:
+
+- Material name.
+- Category.
+- Material type.
+- Available quantity.
+- Unit: pieces, bricks, boxes, bags, metres, kilograms, tonnes, or cubic metres as appropriate.
+- Material condition.
+- Brand or specification, optional.
+- Description.
+
+### Section B: Photographs
+
+Allow multiple local image uploads with:
+
+- Preview thumbnails.
+- Remove-image control.
+- Drag-and-drop zone.
+- Supported file type and size validation.
+
+Use actual local previews for uploaded images.
+
+### Section C: Pickup Information
+
+Fields:
+
+- Site name.
+- Location.
+- Approximate coordinates or map selection if supported.
+- Pickup start date.
+- Pickup deadline.
+- Pickup time window.
+- Loading or access notes.
+- Contact preference.
+
+### Section D: Review and Publish
+
+Display a summary of the entered information before publishing.
+
+Buttons:
+
+- Save as Draft
+- Preview Listing
+- Publish Listing
+
+Functional requirements:
+
+- Validate required fields.
+- Validate numeric quantity.
+- Validate dates.
+- Prevent invalid submission.
+- Show success toast after a successful local submission.
+- Save listings in localStorage.
+- Make newly created listings appear immediately in My Listings and Find Materials.
+- Support editing and deleting existing listings with confirmation dialogs.
+
+## 10. Create Material Request Page
+
+Build a form for sites looking for reusable construction materials.
+
+Fields:
+
+- Material category.
+- Material type or specification.
+- Required quantity.
+- Unit.
+- Minimum acceptable condition.
+- Destination site.
+- Location.
+- Required-by date.
+- Preferred pickup window.
+- Maximum travel distance.
+- Description.
+- Optional photographs or specification documents.
+
+Display an optional helper panel explaining that the matching system considers material compatibility, quantity, condition, distance, and deadlines.
+
+On submission:
+
+- Validate all required fields.
+- Save the request to localStorage.
+- Display a success message.
+- Navigate to the request details or matches page.
+- Generate recommendations from available sample listings where possible.
+
+Use the heading “Create Material Request” and a prominent “Find Matching Materials” action.
+
+## 11. Smart Matching Engine
+
+This is the signature feature of Saajha Nirman. Build a functional client-side matching algorithm using JavaScript.
+
+Do not make this page a static list of AI-generated matches.
+
+### Matching constraints
+
+Each potential match should consider:
+
+1. Material type and specification compatibility.
+2. Available quantity compared with requested quantity.
+3. Minimum acceptable material condition.
+4. Geographic distance between the source and destination sites.
+5. Pickup deadline and availability window.
+6. Unit compatibility.
+
+Reject a match when the material is incompatible, the available quantity is insufficient for the requested transfer, the condition is unacceptable, or the pickup window is infeasible.
+
+For partial transfers, only allow them if the request permits partial fulfillment. Clearly show any unfulfilled quantity.
+
+### Matching score
+
+For candidates that pass hard constraints, calculate an explainable score using a weighted model:
+
+- Material and specification compatibility: 35%.
+- Quantity fulfillment: 25%.
+- Condition suitability: 15%.
+- Geographic proximity: 15%.
+- Pickup deadline compatibility: 10%.
+
+Use a transparent weighted scoring function and display a breakdown of the factors. Clearly distinguish a compatibility score from a guarantee that the transfer can be completed.
+
+A suitable formula for the demonstration is:
+
+Final score = 0.35 × Material compatibility + 0.25 × Quantity fulfillment + 0.15 × Condition suitability + 0.15 × Distance score + 0.10 × Deadline score.
+
+Normalize individual factors to a 0–100 range. Hard constraints should be applied before ranking. Make the weights easy to adjust in a single JavaScript configuration object.
+
+### Required demonstration scenario
+
+Create two sites with these records:
+
+Source site:
+
+- Listing: Red Clay Bricks.
+- Available quantity: 200 bricks.
+- Condition: Good.
+- Location: Site A.
+- Pickup deadline: Within the next seven days.
+
+Destination site:
+
+- Request: Red Clay Bricks.
+- Required quantity: 150 bricks.
+- Minimum condition: Good.
+- Location: Site B.
+- Pickup deadline: Within the next five days.
+
+Expected recommendation:
+
+- Transfer quantity: 150 bricks.
+- Original surplus: 200 bricks.
+- Remaining surplus: 50 bricks.
+- Request fulfilled: 150 out of 150 bricks.
+- Status: Recommended or Pending Acceptance.
+
+Show a visual calculation:\
+200 available − 150 transferred = 50 bricks remaining.
+
+Do not reduce the source listing quantity merely because a recommendation was generated. Reduce the available quantity only after a transfer is accepted and the demo workflow reaches the appropriate allocation stage. Prevent the same inventory from being allocated to multiple accepted transfers.
+
+### Match results interface
+
+For every recommendation, show:
+
+- Source and destination sites.
+- Material and compatible specification.
+- Available and requested quantities.
+- Proposed transfer quantity.
+- Distance.
+- Condition compatibility.
+- Pickup deadline.
+- Match score.
+- Score breakdown.
+- Remaining surplus after the proposed transfer.
+- Reasons why the match is suitable.
+- Any caveats or missing information.
+
+Actions:
+
+- View Match Details
+- Accept Match
+- Reject Match
+- Contact Site
+- View Route
+
+Accepted matches should create a transfer record and update the appropriate UI state.
+
+Use deterministic local logic and seed data. Do not pretend that an external AI service or live route API is connected.
+
+## 12. My Listings
+
+Create tabs:
+
+- All
+- Active
+- Reserved
+- Partially Allocated
+- Completed
+- Drafts
+
+Each row or card should show:
+
+- Material image and name.
+- Original quantity.
+- Remaining available quantity.
+- Allocated quantity.
+- Number of requests.
+- Condition.
+- Location.
+- Pickup deadline.
+- Listing status.
+- Last updated date.
+
+Provide:
+
+- Search and filters.
+- Edit listing.
+- View matches.
+- Mark unavailable.
+- Delete listing.
+- View transfer history.
+
+The inventory calculations must remain consistent with accepted transfers.
+
+## 13. Material Requests
+
+Build a request management dashboard with tabs:
+
+- Open Requests
+- Matched
+- Partially Fulfilled
+- Fulfilled
+- Cancelled
+
+For each request, display the required quantity, fulfilled quantity, outstanding quantity, condition requirements, destination site, required-by date, and matching opportunities.
+
+Example:\
+150 bricks requested − 100 bricks allocated = 50 bricks still required.
+
+Support request details, edit, cancel, and view matches actions.
+
+## 14. Transfer Management
+
+Create a dedicated page for coordinating material recovery between sites.
+
+Display a transfer timeline:
+
+1. Match Recommended
+2. Awaiting Acceptance
+3. Accepted by Both Sites
+4. Pickup Scheduled
+5. Material Handed Over
+6. Received and Confirmed
+7. Transfer Completed
+
+Each transfer should include:
+
+- Transfer reference ID.
+- Source site.
+- Destination site.
+- Material.
+- Agreed quantity.
+- Current status.
+- Pickup date and time.
+- Contact details using mock data.
+- Handover notes.
+- Completion confirmation.
+
+Allow the demo user to advance a transfer through valid states.
+
+For completed transfers:
+
+- Update recovered quantities.
+- Update remaining listing inventory.
+- Update fulfilled request quantities.
+- Update recovery analytics.
+- Prevent duplicate completion.
+- Record a simple transfer history.
+
+Keep state transitions predictable and prevent skipping required steps.
+
+## 15. Impact Analytics and Waste Diversion
+
+Create a distinctive sustainability analytics page.
+
+Page title: “Material Recovery Impact”
+
+Show KPI cards:
+
+- Total Material Recovered.
+- Total Completed Transfers.
+- Estimated Waste Diverted.
+- Total Materials Reused by Category.
+- Participating Sites.
+- Successful Request Fulfillment Rate.
+
+Charts:
+
+- Recovered materials by month.
+- Recovered quantities by material category.
+- Listed versus recovered versus remaining quantities.
+- Transfer completion rate.
+- Material recovery by site.
+
+Add a waste-diversion report with:
+
+- Material category.
+- Completed recovered quantity.
+- Standardized mass estimate, where conversion data is available.
+- Estimated waste diverted in kilograms or tonnes.
+- Calculation methodology.
+- Reporting period.
+
+Important: Do not treat every listed or recommended material as successfully recovered. Only count completed and confirmed transfers as recovered material.
+
+Use unit-aware conversions. For mass-based environmental reporting, only calculate estimates where a defensible material-specific conversion factor is configured. Clearly label estimates and show the factor used. For materials measured in pieces, boxes, metres, or cubic metres, do not invent a universal mass conversion.
+
+If environmental CO₂ savings are shown, label them as estimates and only calculate them using explicitly configured, sourced emission factors. Otherwise, omit CO₂ savings.
+
+Include a downloadable CSV report of the current local demo data using browser-side JavaScript.
+
+## 16. Notifications and Messaging
+
+Build an attractive notification panel with sample events:
+
+- A new site requested your listed bricks.
+- A suitable nearby match was found.
+- Your match was accepted.
+- Pickup is scheduled for tomorrow.
+- A material transfer has been confirmed.
+
+Provide:
+
+- Read and unread states.
+- Mark all as read.
+- Notification timestamps.
+- Navigation to the relevant listing, request, or transfer.
+
+Build a simple mock conversation UI for site-to-site coordination with sample conversations, message bubbles, and a working local message composer. Do not imply that messages are being delivered to a real external user.
+
+## 17. Profile and Site Settings
+
+Create editable mock profile settings.
+
+Profile fields:
+
+- Full name.
+- Organization.
+- Site name.
+- Role.
+- Phone number.
+- Email address.
+- Site location.
+- Preferred distance unit.
+- Notification preferences.
+
+Allow changes to be saved in localStorage.
+
+Include a site selector with at least three demo construction sites.
+
+Use fictional contact information and clearly marked demo profiles.
+
+## 18. Functional Requirements
+
+Implement the following end-to-end frontend demo:
+
+Scenario A:
+
+1. Open Find Materials.
+2. Find a listing of 200 red clay bricks.
+3. Open its details.
+4. Create a request for 150 compatible bricks.
+5. Generate a matching recommendation.
+6. Display the score breakdown.
+7. Accept the recommendation.
+8. Schedule the pickup.
+9. Confirm handover and receipt.
+10. Complete the transfer.
+11. Show 50 bricks remaining in the source listing.
+12. Show 150 bricks fulfilled in the request.
+13. Update the completed transfer count and recovery analytics.
+
+Scenario B:
+
+1. Create a new surplus listing.
+2. Verify that it appears in Find Materials and My Listings.
+3. Create a compatible material request.
+4. Recalculate matches.
+5. Verify that available quantities and request quantities are updated consistently.
+
+Scenario C:
+
+1. Filter listings by category, condition, and distance.
+2. Verify that results change.
+3. Open a material detail page.
+4. Submit a valid request.
+5. View the newly created request and its matching results.
+
+All major buttons must have a real action. Provide helpful empty states, inline form errors, confirmation dialogs, and success feedback.
+
+## 19. Data Architecture
+
+Use separate JavaScript modules for:
+
+- Seed listings.
+- Seed material requests.
+- Site profiles.
+- Transfer records.
+- Notification records.
+- Material categories.
+- Condition rankings.
+- Unit compatibility.
+- Matching logic.
+- Environmental conversion factors.
+- LocalStorage persistence.
+
+Use unique IDs and consistent references between listings, requests, sites, and transfers.
+
+Create reusable functions such as:
+
+- calculateMatchScore()
+- findCompatibleMaterials()
+- calculateRemainingSurplus()
+- calculateOutstandingRequestQuantity()
+- validateTransfer()
+- advanceTransferStatus()
+- calculateRecoveredQuantity()
+- calculateWasteDiversion()
+- exportImpactReportCSV()
+
+Store and derive state consistently so the same material is not counted twice and analytics reflect only valid completed transfers.
+
+Handle missing, malformed, or outdated localStorage data gracefully.
+
+## 20. Suggested Component Architecture
+
+Use a clean Vite project structure:
+
+src/\
+assets/\
+components/\
+layout/\
+AppLayout.jsx\
+Sidebar.jsx\
+Topbar.jsx\
+MobileNavigation.jsx\
+ui/\
+Button.jsx\
+Input.jsx\
+Select.jsx\
+Badge.jsx\
+Modal.jsx\
+Toast.jsx\
+EmptyState.jsx\
+LoadingSkeleton.jsx\
+materials/\
+MaterialCard.jsx\
+MaterialFilters.jsx\
+MaterialGallery.jsx\
+ListingForm.jsx\
+matching/\
+MatchCard.jsx\
+MatchScoreBreakdown.jsx\
+MatchDetails.jsx\
+transfers/\
+TransferTimeline.jsx\
+TransferCard.jsx\
+analytics/\
+MetricCard.jsx\
+RecoveryCharts.jsx\
+ImpactReport.jsx\
+pages/\
+LandingPage.jsx\
+DashboardPage.jsx\
+FindMaterialsPage.jsx\
+MaterialDetailsPage.jsx\
+CreateListingPage.jsx\
+MyListingsPage.jsx\
+CreateRequestPage.jsx\
+RequestsPage.jsx\
+MatchesPage.jsx\
+TransfersPage.jsx\
+ImpactAnalyticsPage.jsx\
+MessagesPage.jsx\
+ProfilePage.jsx\
+data/\
+seedListings.js\
+seedRequests.js\
+seedSites.js\
+seedTransfers.js\
+materialCategories.js\
+utils/\
+matchingEngine.js\
+inventory.js\
+impactCalculations.js\
+localStorage.js\
+exportCSV.js\
+validation.js\
+hooks/\
+useLocalStorage.js\
+App.jsx\
+main.jsx\
+index.css
+
+Adapt the structure as needed, but keep matching logic, inventory calculations, data, and presentation components separated.
+
+## 21. Responsive Design
+
+Desktop:
+
+- Full sidebar.
+- Four to six KPI cards depending on available width.
+- Two-column dashboard sections.
+- Material grids with three cards per row when space permits.
+
+Tablet:
+
+- Collapsible sidebar.
+- Two-column card grids.
+- Charts stacked when needed.
+
+Mobile:
+
+- Compact navigation.
+- Single-column forms and cards.
+- Full-width primary actions.
+- Responsive filter drawer.
+- Scrollable tabs where necessary.
+- No horizontal overflow.
+- Accessible forms and dialogs.
+
+## 22. Accessibility and UX Quality
+
+- Semantic HTML.
+- Labels associated with every input.
+- Keyboard-accessible navigation and dialogs.
+- Visible focus states.
+- Accessible color contrast.
+- Clear status text that does not rely on color alone.
+- Useful error messages.
+- Confirmation for destructive actions.
+- Respect reduced-motion preferences.
+- Use optimized image sizes and sensible fallbacks.
+
+## 23. Final Quality Requirements
+
+The result should feel like a premium, real-world sustainability SaaS product built for construction site managers.
+
+Prioritize:
+
+1. A visually excellent silver and emerald design.
+2. A complete dashboard inspired by the reference image.
+3. A working materials marketplace for reuse and recovery.
+4. A genuinely functional, explainable matching engine.
+5. Correct inventory calculations and transfer workflows.
+6. Credible waste-diversion analytics.
+7. Responsive behavior and reusable components.
+
+Use high-quality construction material imagery, subtle animations, polished charts, precise spacing, and a consistent icon system.
+
+Do not stop after creating the landing page. Implement all main pages and the core demo workflow.
+
+## 24. Delivery Instructions
+
+Generate the complete runnable frontend project.
+
+Include:
+
+- All React and JSX files.
+- Tailwind configuration appropriate to the installed version.
+- Vite configuration.
+- Package dependencies and package.json.
+- Seed datasets.
+- Matching algorithm and calculation utilities.
+- Responsive styles.
+- Working navigation and demo interactions.
+- A README with installation and run commands.
+
+Ensure that the application runs with:
+
+npm install\
+npm run dev
+
+Use JavaScript only. Do not leave major pages as placeholders, use dead buttons, or claim that backend, AI, external messaging, live maps, or real-world transfers are connected when they are not.
+
+The final result should demonstrate how Saajha Nirman turns surplus construction materials into measurable material recovery through local, feasible, transparent transfers.
+
+## Recommended implementation order
+
+If your AI coding tool struggles to generate the complete project at once, build it in these stages.
+
+Phase 1 — Visual foundation
+
+Landing page, silver-and-emerald theme, sidebar, header, dashboard, KPI cards, material cards and responsive layout.
+
+Phase 2 — Materials and requests
+
+Search, filters, material details, listing creation, request forms, validation and localStorage persistence.
+
+Phase 3 — Matching engine
+
+Implement compatibility checks, explainable scores, the 200-brick to 150-brick demonstration, and accurate remaining inventory.
+
+Phase 4 — Transfers and impact
+
+Transfer timeline, pickup coordination, completion confirmation, recovery analytics and downloadable CSV reports.
+
+My strongest recommendation: Make the smart matching page and material recovery analytics the two standout features. Most marketplace projects stop at listing products and displaying cards. Saajha Nirman becomes much more compelling when it demonstrates a complete transfer and proves exactly how much material was recovered.
